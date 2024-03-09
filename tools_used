@@ -1,0 +1,44 @@
+Text Extraction from PDF:
+
+PyPDF2 (PDF Text Extraction):
+
+Extracts text content from PDF files.
+langid (Language Detection):
+
+Detects the language of extracted text.
+nltk (Natural Language Toolkit):
+
+Subtools:
+word_tokenize: Splits sentences into words.
+words: Filters out non-English words.
+Handles tasks like tokenization, lemmatization, and stopwords.
+Data Downloads in nltk:
+
+Downloads resources for words, tokenization, WordNet, and stopwords.
+scikit-learn (Machine Learning):
+
+Subtools:
+TfidfVectorizer: Converts documents to TF-IDF features.
+MultinomialNB: Implements Naive Bayes for classification.
+accuracy_score, classification_report, confusion_matrix: Metrics for model evaluation.
+train_test_split: Splits datasets for training and testing.
+SimpleImputer: Handles missing values in datasets.
+Used for various machine learning tasks.
+numpy (Numerical Operations):
+
+Provides support for large numerical arrays and matrices.
+matplotlib (Data Visualization):
+
+Subtool:
+pyplot: Facilitates creating plots.
+Used for visualizing data.
+KMeans (Clustering):
+
+Implements KMeans algorithm for data clustering.
+cosine_similarity (Text Similarity):
+
+Computes cosine similarity between vectors, useful in text analysis.
+TSNE (Dimensionality Reduction):
+
+Implements t-Distributed Stochastic Neighbor Embedding for visualization.
+
